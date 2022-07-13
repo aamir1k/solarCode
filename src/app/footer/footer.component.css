@@ -1,0 +1,58 @@
+.footer {
+  background: #26313c;
+  color: white;
+}
+.container {
+  background-color: #26313c;
+}
+.logo-footer {
+  width: 2px;
+  height: 2px;
+}
+
+.whole {
+  margin-top: 2rem;
+  background-color: rgb(20, 20, 66);
+  height: 55%;
+  color: whitesmoke;
+}
+.img-fluid {
+  width: 90px;
+  height: 90px;
+  margin: 10px 0 0 150px;
+}
+.solar {
+  margin: 10px 0 0 150px;
+}
+.text-muted {
+  color: aliceblue;
+}
+
+/* ------------------------------------------------------------------- */
+
+@media screen and (max-width: 766px) {
+  .whole {
+    max-width: 100%;
+    /* display: flex; */
+  }
+
+  .col-6 {
+    display: flex;
+  }
+  .contact {
+    margin-top: -8rem;
+    height: 150px;
+    justify-content: flex-end;
+  }
+  .useful-links {
+    font-size: 20px;
+    margin-top: -3rem;
+    margin-left: 2rem;
+  }
+  .list-unstyled {
+    margin-left: 9rem;
+  }
+  .col-12 {
+    margin-top: -2rem;
+  }
+}

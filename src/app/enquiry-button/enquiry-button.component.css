@@ -1,0 +1,17 @@
+.button {
+  /* position: relative; */
+  justify-content: flex-end;
+  background-color: aqua;
+  width: 0%;
+  position: absolute;
+  left: 94rem;
+  top: 300px;
+  position: fixed;
+  /* margin-left: 90rem; */
+
+  /* margin-left: 5rem; */
+}
+.enquiry-button {
+  background-color: rgb(245, 177, 75);
+  transform: rotate(90deg);
+}

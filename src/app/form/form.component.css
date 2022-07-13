@@ -1,0 +1,44 @@
+.form-group {
+  width: 330px;
+  border-spacing: 10px;
+  margin-top: 1rem;
+}
+.form1 {
+  width: 45%;
+  /* margin: auto; */
+  display: flex;
+}
+.btn {
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 12px;
+  width: 330px;
+  margin-top: 1rem;
+
+  /* padding: 10px 200px; */
+  background-color: rgb(245, 177, 75);
+}
+.container {
+  width: 30%;
+  height: 70%;
+  background-color: azure;
+}
+.contact {
+  background-color: rgb(245, 177, 75);
+
+  text-align: start;
+}
+.form-message {
+  width: 330px;
+  height: 90px;
+}
+.boxLine {
+  width: 100%;
+  display: flex;
+  color: gray;
+}
+.close {
+  text-align: end;
+  margin-left: 90px;
+}

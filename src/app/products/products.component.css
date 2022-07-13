@@ -1,0 +1,184 @@
+/* .sss {
+  text-align: center;
+  color: rgb(172, 125, 125);
+}
+.sss span {
+  font-size: 4vw;
+  font-weight: 600;
+  text-shadow: -0.08em, 0.03em, 0.12em rgba(0, 0, 0, 0.9);
+}
+.sss span:not(:first-child) {
+  margin-left: -0.1em;
+} */
+/* --------------------------------------------------------- */
+.cont {
+  background-color: azure;
+  margin-top: 3rem;
+}
+.container {
+  display: flex;
+}
+.image {
+  margin-top: 6rem;
+  margin-left: 90px;
+}
+.content {
+  width: 60%;
+  text-align: start;
+  margin-top: 6rem;
+  margin-left: 30px;
+}
+.solar {
+  color: gray;
+  font-size: 40px;
+}
+.otherDetails {
+  margin-top: 6rem;
+  margin-left: 20rem;
+}
+h3 {
+  color: green;
+}
+
+.details {
+  width: 80%;
+  height: 200px;
+  border: 1px solid gray;
+  justify-content: space-between;
+  /* padding: 50px; */
+}
+tr {
+  background-color: aliceblue;
+}
+/* ----------------payment--------------------------- */
+
+.upper-botton {
+  margin-top: 5rem;
+  margin-left: 9rem;
+}
+.head-btn {
+  padding: 5px;
+  width: 150px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: none;
+  background-color: rgb(245, 177, 75);
+  color: white;
+}
+.payment-inner {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.payment-btn {
+  width: 1200px;
+  height: 50px;
+  border: none;
+}
+.payment-upper {
+  border: 1px solid lightgray;
+  margin-right: 9rem;
+  margin-left: 9rem;
+  box-shadow: 2px lightgray;
+  padding: 1.6rem;
+}
+/* .payment-align {
+} */
+/* .payment-center {
+  padding: 13px;
+} */
+.payment-btn-hed {
+  width: 1200px;
+  border: none;
+  height: 10px;
+  margin-left: 2.3rem;
+}
+.payment-inner1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* --------review---------------------------------------------------------------------------- */
+.reviews {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+.top {
+  color: white;
+  background-color: rgb(245, 177, 75);
+  width: 9rem;
+  border-radius: 12px;
+  text-align: center;
+}
+.review {
+  border: 1px solid black;
+
+  height: 550px;
+  width: 80%;
+}
+.review-heading {
+  text-align: center;
+  margin-top: 3rem;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  color: white;
+  background-color: rgb(245, 177, 75);
+
+  text-align: center;
+  /* font-weight: 500; */
+  border-radius: 12px;
+  width: 200px;
+  margin: 2rem 2rem;
+}
+
+/* -------------------Products Enquiry----------------------- */
+
+.pdts {
+  margin-top: 8rem;
+  margin-bottom: 10rem;
+}
+
+.input-enquiry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.output-enquiry {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.input-fields {
+  width: 550px;
+  height: 40px;
+  margin: 20px;
+  border-radius: 50px;
+  padding: 23px;
+  border: 1px solid gray;
+}
+.input-message {
+  width: 1150px;
+  height: 160px;
+  margin: 20px;
+  border-radius: 50px;
+  padding: 23px;
+  border: 1px solid gray;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.btn-submit {
+  color: white;
+  background-color: rgb(245, 177, 75);
+  width: 220px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+}

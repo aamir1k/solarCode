@@ -1,0 +1,12 @@
+a {
+  text-decoration: none !important;
+}
+
+.img-fluid {
+  height: 100px;
+  width: 120px;
+}
+.nav-item {
+  display: flex;
+  justify-content: center;
+}

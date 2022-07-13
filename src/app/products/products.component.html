@@ -1,0 +1,204 @@
+<!-- <app-header></app-header> -->
+<section id="products">
+  <!-- <div class="sss">
+    <span>P</span>
+    <span>R</span>
+    <span>0</span>
+    <span>D</span>
+    <span>U</span>
+    <span>C</span>
+    <span>T</span>
+    &nbsp; &nbsp; &nbsp; &nbsp;
+
+    <span>D</span>
+    <span>E</span>
+    <span>T</span>
+    <span>A</span>
+    <span>I</span>
+    <span>L</span>
+    <span>S</span>
+  </div> -->
+  <div class="cont">
+    <div class="container">
+      <div class="image">
+        <img
+          src="../../assets/solarcell.jpg"
+          alt="pole"
+          style="width: 400px; height: 500px"
+        />
+      </div>
+      <div class="content">
+        <h2 class="solar" style="font-weight: 100">SOLAR INDIA</h2>
+        <span style="font-weight: bold"
+          >Products Category :<span style="font-weight: 20">
+            Solar Products / Solar</span
+          ></span
+        >
+        <div class="col-sm-12">
+          <ul
+            class="list-inline rating-list"
+            *ngFor="let star of stars"
+            style="display: inline-block"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-star"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"
+              />
+            </svg>
+            <li (click)="countStar(star)"><i class="fa fa-star"></i></li>
+          </ul>
+        </div>
+        <h3
+          style="font-weight: 50; font-family: 'Times New Roman', Times, serif"
+        >
+          Price on request
+        </h3>
+        <h4 style="font-size: 14px; margin-top: 5rem">
+          Brand name : SOLAR INDIA
+        </h4>
+        <button class="btn btn primary">Get Enquiry</button><br />
+        <button style="margin: 10px"><i class="bi bi-facebook"></i></button>
+        <button style="margin: 10px"><i class="bi bi-whatsapp"></i></button>
+        <button style="margin: 10px"><i class="bi bi-twitter"></i></button>
+      </div>
+    </div>
+    <!-- -----------------payment----------------------------------------- -->
+    <div class="upper-botton">
+      <button class="head-btn">Other details</button>
+    </div>
+    <div class="payment-upper">
+      <div class="payment-inner">
+        <div class="payment-align">
+          <div class="payment-center">
+            <button class="payment-btn">
+              <h5 style="text-align: left; padding-left: 1rem">
+                Payment terms
+              </h5>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="payment-inner1">
+        <div class="payment-btn-hed">
+          <h5 style="text-align: left">Delivery terms</h5>
+        </div>
+      </div>
+      <div class="payment-inner">
+        <div class="payment-align">
+          <div class="payment-center">
+            <button class="payment-btn">
+              <h5 style="text-align: left; padding-left: 1rem">Policy</h5>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="payment-inner1">
+        <div class="payment-btn-hed">
+          <h5 style="text-align: left">Warranty</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- product review --------------------------------------------------------------------product review-->
+
+    <div class="reviews">
+      <!-- <h2 class="top">Review</h2> -->
+
+      <div class="review">
+        <button class="head-btn">Reviews</button>
+        <div class="review-heading">
+          <h2 style="font-weight: bold; color: rgb(99, 96, 96)">
+            Review this Products
+          </h2>
+          &nbsp;
+          <div class="col-sm-12">
+            <ul
+              class="list-inline rating-list"
+              *ngFor="let star of stars"
+              style="display: inline-block"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-star"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"
+                />
+              </svg>
+              <li (click)="countStar(star)"><i class="fa fa-star"></i></li>
+            </ul>
+          </div>
+        </div>
+        &nbsp;
+
+        <form class="name">
+          <input
+            type="text"
+            placeholder="Name"
+            class="name1"
+            style="width: 400px; margin-left: 2rem; height: 30px"
+          />
+          <input
+            type="text"
+            placeholder="Mobile No."
+            class="name1"
+            style="width: 400px; margin-right: 2rem; height: 30px"
+          />
+        </form>
+        <input
+          type="text"
+          placeholder="review"
+          style="height: 10rem; width: 95%; margin-top: 3rem; margin-left: 2rem"
+        />
+
+        <button type="submit" class="btn">Submit Review</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ---------------------------------------------Products Enquiry------------------------------- -->
+
+  <div class="pdts">
+    <h2 style="text-align: center">Products Enquiry</h2>
+
+    <form class="enquiry-form">
+      <div class="containers">
+        <div class="output-enquiry">
+          <div class="input-enquiry">
+            <input type="text" placeholder="Name" class="input-fields" />
+            <input type="text" placeholder="Email." class="input-fields" />
+          </div>
+        </div>
+
+        <div class="output-enquiry">
+          <div class="input-enquiry">
+            <input type="text" placeholder="Contact no." class="input-fields" />
+            <input type="text" placeholder="Sales." class="input-fields" />
+          </div>
+        </div>
+        <div class="output-enquiry">
+          <div class="input-enquiry">
+            <input type="text" placeholder="Message." class="input-message" />
+          </div>
+        </div>
+        <div class="buttons">
+          <button type="submit" class="btn-submit">Submit Request</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+<!-- <app-footer></app-footer> -->

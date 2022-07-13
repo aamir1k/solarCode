@@ -1,0 +1,47 @@
+<div class="container1">
+  <!-- carousel images ------------------------------------------------------------------------------------------>
+  <div class="cross">
+    <div *ngIf="images && images.length > 0" class="carousel-container">
+      <img
+        *ngFor="let image of images; let i = index"
+        [src]="image.imageSrc"
+        [alt]="image.imageAlt"
+        [ngClass]="{ 'image-active': selectedIndex === i }"
+        class="fade1"
+      />
+
+      <div *ngIf="indicators" class="carousel-dot-conatiner">
+        <span
+          *ngFor="let dot of images; let i = index"
+          class="dot"
+          ngClass="{'active' : selectedIndex === i }"
+          (click)="selectImage(i)"
+        ></span>
+      </div>
+
+      <button *ngIf="controls" class="btn-carousel btn-prev">
+        <i
+          class="fas fa-arrow-circle-left icon-carousel icon-prev"
+          (click)="onPrevClick()"
+        ></i>
+      </button>
+      <button *ngIf="controls" class="btn-carousel btn-next">
+        <i
+          class="fas fa-arrow-circle-right icon-carousel icon-next"
+          (click)="onNextClick()"
+        ></i>
+      </button>
+    </div>
+
+    <!-- ----------------------- -->
+    <div class="nav-header1">
+      <div class="sign">
+        <span class="fast-flicker">S</span>olar<span class="flicker">Ind</span
+        >ia
+      </div>
+    </div>
+  </div>
+</div>
+<app-enquiry-button></app-enquiry-button>
+<app-about-us></app-about-us>
+<app-contact-us></app-contact-us>
